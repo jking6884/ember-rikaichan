@@ -1,0 +1,1 @@
+export { default } from 'ember-rikaichan/components/rikaichan-container';
