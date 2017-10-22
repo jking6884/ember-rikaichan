@@ -168,7 +168,7 @@ export default Ember.Component.extend({
         return 0;
       }
 
-      if ((ro < 0) || (ro >= rp.data.length)) {
+      if ((ro < 0) || (rp.data && (ro >= rp.data.length))) {
         this.clearHi();
         this.hidePopup();
         return 0;
